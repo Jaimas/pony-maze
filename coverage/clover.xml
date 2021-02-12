@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1610734335087" clover="3.2.0">
+  <project timestamp="1610734335087" name="All files">
+    <metrics statements="209" coveredstatements="163" conditionals="103" coveredconditionals="63" methods="71" coveredmethods="52" elements="383" coveredelements="278" complexity="0" loc="209" ncloc="209" packages="3" files="11" classes="11"/>
+    <package name="config">
+      <metrics statements="8" coveredstatements="7" conditionals="11" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <file name="Config.ts" path="/Users/paulius.butkus@lt.ibm.com/Documents/pony-maze/src/config/Config.ts">
+        <metrics statements="8" coveredstatements="7" conditionals="11" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="cond" truecount="7" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="entity">
+      <metrics statements="123" coveredstatements="79" conditionals="50" coveredconditionals="13" methods="59" coveredmethods="41"/>
+      <file name="Cell.ts" path="/Users/paulius.butkus@lt.ibm.com/Documents/pony-maze/src/entity/Cell.ts">
+        <metrics statements="26" coveredstatements="22" conditionals="12" coveredconditionals="0" methods="21" coveredmethods="17"/>
+        <line num="12" count="628" type="stmt"/>
+        <line num="13" count="628" type="stmt"/>
+        <line num="14" count="628" type="stmt"/>
+        <line num="15" count="628" type="stmt"/>
+        <line num="16" count="628" type="stmt"/>
+        <line num="17" count="628" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="37" count="303" type="stmt"/>
+        <line num="41" count="303" type="stmt"/>
+        <line num="45" count="303" type="stmt"/>
+        <line num="49" count="303" type="stmt"/>
+        <line num="53" count="302" type="stmt"/>
+        <line num="57" count="302" type="stmt"/>
+        <line num="61" count="302" type="stmt"/>
+        <line num="65" count="302" type="stmt"/>
+        <line num="69" count="7185" type="stmt"/>
+        <line num="73" count="7185" type="stmt"/>
+        <line num="77" count="2723" type="stmt"/>
+        <line num="81" count="566" type="stmt"/>
+        <line num="85" count="159" type="stmt"/>
+        <line num="89" count="159" type="stmt"/>
+        <line num="93" count="144" type="stmt"/>
+        <line num="97" count="144" type="stmt"/>
+      </file>
+      <file name="Game.ts" path="/Users/paulius.butkus@lt.ibm.com/Documents/pony-maze/src/entity/Game.ts">
+        <metrics statements="27" coveredstatements="7" conditionals="8" coveredconditionals="0" methods="10" coveredmethods="4"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="315" type="stmt"/>
+        <line num="30" count="315" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="LocationPoint.ts" path="/Users/paulius.butkus@lt.ibm.com/Documents/pony-maze/src/entity/LocationPoint.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="7" count="632" type="stmt"/>
+        <line num="8" count="632" type="stmt"/>
+        <line num="12" count="8994" type="stmt"/>
+        <line num="16" count="7854" type="stmt"/>
+      </file>
+      <file name="Maze.ts" path="/Users/paulius.butkus@lt.ibm.com/Documents/pony-maze/src/entity/Maze.ts">
+        <metrics statements="55" coveredstatements="41" conditionals="30" coveredconditionals="13" methods="15" coveredmethods="13"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="37" count="566" type="stmt"/>
+        <line num="38" count="566" type="stmt"/>
+        <line num="40" count="566" type="stmt"/>
+        <line num="41" count="565" type="stmt"/>
+        <line num="42" count="565" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="299" type="stmt"/>
+        <line num="45" count="565" type="stmt"/>
+        <line num="46" count="565" type="stmt"/>
+        <line num="51" count="2158" type="stmt"/>
+        <line num="55" count="566" type="stmt"/>
+        <line num="57" count="566" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="544" type="stmt"/>
+        <line num="59" count="544" type="stmt"/>
+        <line num="62" count="566" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="542" type="stmt"/>
+        <line num="64" count="542" type="stmt"/>
+        <line num="67" count="566" type="cond" truecount="2" falsecount="0"/>
+        <line num="68" count="534" type="stmt"/>
+        <line num="69" count="534" type="stmt"/>
+        <line num="72" count="566" type="cond" truecount="2" falsecount="0"/>
+        <line num="73" count="538" type="stmt"/>
+        <line num="74" count="538" type="stmt"/>
+        <line num="77" count="566" type="stmt"/>
+        <line num="81" count="565" type="stmt"/>
+        <line num="82" count="565" type="stmt"/>
+        <line num="86" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="91" count="16" type="stmt"/>
+        <line num="95" count="336" type="stmt"/>
+        <line num="99" count="5448" type="stmt"/>
+        <line num="103" count="2723" type="stmt"/>
+        <line num="107" count="566" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="116" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="119" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="122" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="125" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="130" count="0" type="stmt"/>
+      </file>
+      <file name="Monster.ts" path="/Users/paulius.butkus@lt.ibm.com/Documents/pony-maze/src/entity/Monster.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="Movable.ts" path="/Users/paulius.butkus@lt.ibm.com/Documents/pony-maze/src/entity/Movable.ts">
+        <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="630" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+      </file>
+      <file name="Player.ts" path="/Users/paulius.butkus@lt.ibm.com/Documents/pony-maze/src/entity/Player.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="78" coveredstatements="77" conditionals="42" coveredconditionals="40" methods="10" coveredmethods="9"/>
+      <file name="Direction.ts" path="/Users/paulius.butkus@lt.ibm.com/Documents/pony-maze/src/utils/Direction.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="MazeUtils.ts" path="/Users/paulius.butkus@lt.ibm.com/Documents/pony-maze/src/utils/MazeUtils.ts">
+        <metrics statements="70" coveredstatements="70" conditionals="34" coveredconditionals="33" methods="6" coveredmethods="6"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="31" type="stmt"/>
+        <line num="14" count="31" type="stmt"/>
+        <line num="15" count="620" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="303" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="78" type="stmt"/>
+        <line num="35" count="78" type="stmt"/>
+        <line num="38" count="303" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="81" type="stmt"/>
+        <line num="40" count="81" type="stmt"/>
+        <line num="43" count="303" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="73" type="stmt"/>
+        <line num="45" count="73" type="stmt"/>
+        <line num="48" count="303" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="71" type="stmt"/>
+        <line num="50" count="71" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="93" count="20" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="97" count="15" type="stmt"/>
+        <line num="98" count="15" type="stmt"/>
+        <line num="99" count="300" type="stmt"/>
+        <line num="101" count="300" type="stmt"/>
+        <line num="102" count="300" type="stmt"/>
+        <line num="103" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="104" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="105" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="107" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="110" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="111" count="1" type="stmt"/>
+        <line num="114" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="115" count="1" type="stmt"/>
+        <line num="118" count="300" type="cond" truecount="1" falsecount="1"/>
+        <line num="119" count="300" type="stmt"/>
+        <line num="122" count="300" type="stmt"/>
+        <line num="124" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="125" count="1" type="stmt"/>
+        <line num="128" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="132" count="300" type="stmt"/>
+        <line num="134" count="15" type="stmt"/>
+        <line num="137" count="1" type="stmt"/>
+        <line num="143" count="1" type="stmt"/>
+        <line num="146" count="1" type="stmt"/>
+        <line num="147" count="300" type="stmt"/>
+        <line num="149" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="150" count="143" type="stmt"/>
+        <line num="153" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="154" count="143" type="stmt"/>
+        <line num="157" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="158" count="158" type="stmt"/>
+        <line num="161" count="300" type="cond" truecount="2" falsecount="0"/>
+        <line num="162" count="158" type="stmt"/>
+        <line num="165" count="300" type="stmt"/>
+      </file>
+      <file name="NumberUtils.ts" path="/Users/paulius.butkus@lt.ibm.com/Documents/pony-maze/src/utils/NumberUtils.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="8" coveredconditionals="7" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="6803" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="2266" type="cond" truecount="4" falsecount="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>

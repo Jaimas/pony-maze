@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "outDir": "build",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+      "entity/*": ["src/entity/*"],
+      "utils/*": ["src/utils/*"],
+      "config/*": ["src/config/*"]
+    }
+  }
+}
